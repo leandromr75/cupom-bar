@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Table]
+(
+	[Id_Prod] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Produto] NVARCHAR(50) NOT NULL, 
+    [Preco] FLOAT NOT NULL
+)

@@ -1,0 +1,47 @@
+1) .net 4.5
+
+2) Pasta aplicativo
+
+3) Logo - pasta c:\Recanto\Logo.bmp
+
+4) SqlServer 2008 r2 Express 32/64
+
+5) Banco de dados MDF e LOG 
+
+6) Driver USB impressora -bematech e mp2032
+
+7) Report Viewer 2012 Runtime
+
+8) System CLR Types for SQL Server 2012
+
+
+Banco de dados Recanto_Sertanejo
+
+
+tabela Relatorio
+
+Id              int                   / identify /  chave primária / not null
+Produto         nvarchar(50)          / not null
+Quantidade      int                   / not null
+senha_noite     nvarchar(50)          / not null
+Data            nvarchar(50)          / not null
+
+
+
+tabela Cod
+
+Id              int                   / identify / chave primária / not null
+senha_noite     varchar(50)           / not null
+
+
+
+
+tabela Produtos
+
+Id              int                   / identify /  chave primária / not null
+Produto         nvarchar(50)          / not null
+Familia         nvarchar(50)          / not null
+Valor           decimal(10,2)         / not null
+Quantidade      int                   / permite nulos
+
+  

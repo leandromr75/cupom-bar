@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LinqDados">
+  <DataContextMoniker Name="/LinqDadosDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ea3ed0a9-f971-435e-83af-7c342c04a007" absoluteBounds="2.375, 2.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LinqDadosDataContext/Produtos" />
+      <nestedChildShapes>
+        <elementListCompartment Id="247d843c-94f3-4540-93e5-eec77d71bc09" absoluteBounds="2.39, 2.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8f095f92-daf2-45fa-9121-6763de119c58" absoluteBounds="6.25, 3.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/LinqDadosDataContext/Cod" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7d91a2a8-8d08-4bae-aacb-8b5d65b21ed6" absoluteBounds="6.265, 4.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6b2c582b-e2e0-43d5-9ea5-8283e61a2910" absoluteBounds="6.875, 1.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LinqDadosDataContext/Relatorio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d80ff3ff-7434-4a9a-a1aa-43397158d438" absoluteBounds="6.89, 1.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
